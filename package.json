@@ -1,23 +1,22 @@
 {
   "name": "m3ter-head",
   "version": "1.0.0",
-  "description": "Unique svg avatars for the M3tering Protocol devices",
+  "description": "Unique svg avatars for the M3tering Protocol",
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "@types/react": "^18.2.45",
-    "react": "^18.2.0",
-    "typescript": "^5.3.3",
-    "seedrandom": "^3.0.5"
+    "@types/seedrandom": "^3.0.8",
+    "typescript": "^5.3.3"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iChristwin/M3ter-head.git"
   },
-  "author": "M3tering",
-  "license": "ISC",
+  "author": "iChristwin",
+  "license": "CC0",
   "bugs": {
     "url": "https://github.com/iChristwin/M3ter-head/issues"
   },

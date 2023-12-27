@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import {
   Arturito,
   Bite,
@@ -10,11 +10,15 @@ import {
   Smile1,
   Smile2,
   Square1,
-  Square2
-} from '../Parts/Mouths'
+  Square2,
+} from "../Parts/Mouths";
 
-const Mouth = props => {
-  const types = {
+interface MouthProps {
+  type: number;
+}
+
+const Mouth: React.FC<MouthProps> = (props) => {
+  const types: { [key: string]: React.FC } = {
     Arturito,
     Bite,
     Diagram,
@@ -25,14 +29,18 @@ const Mouth = props => {
     Smile1,
     Smile2,
     Square1,
-    Square2
-  }
-  const typeKeys = Object.keys(types)
-  const Type = types[typeKeys[props.type]]
+    Square2,
+  };
+
+  const typeKeys = Object.keys(types);
+  const selectedTypeKey = typeKeys[props.type];
+  const Type = types[selectedTypeKey];
+
   return (
     <g id="mouth_part" transform="translate(52, 124)">
       <Type />
     </g>
-  )
-}
-export default Mouth
+  );
+};
+
+export default Mouth;
