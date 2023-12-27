@@ -15,6 +15,17 @@
       "contributions": [
         "code",
         "review"
+        ]
+    },
+    {
+      "login": "iChristwin",
+      "name": "I. Christwin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52095470?v=4",
+      "profile": "https://github.com/iChristwin",
+      "contributions": [
+        "code",
+        "test",
+        "example"
       ]
     }
   ],

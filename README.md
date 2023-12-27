@@ -60,6 +60,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/IDEA-godwin"><img src="https://avatars.githubusercontent.com/u/52127638?v=4?s=100" width="100px;" alt="Godwin Igwurube"/><br /><sub><b>Godwin Igwurube</b></sub></a><br /><a href="https://github.com/iChristwin/M3ter-head/commits?author=IDEA-godwin" title="Code">💻</a> <a href="https://github.com/iChristwin/M3ter-head/pulls?q=is%3Apr+reviewed-by%3AIDEA-godwin" title="Reviewed Pull Requests">👀</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/iChristwin"><img src="https://avatars.githubusercontent.com/u/52095470?v=4?s=100" width="100px;" alt="I. Christwin"/><br /><sub><b>I. Christwin</b></sub></a><br /><a href="https://github.com/iChristwin/M3ter-head/commits?author=iChristwin" title="Code">💻</a> <a href="https://github.com/iChristwin/M3ter-head/commits?author=iChristwin" title="Tests">⚠️</a> <a href="#example-iChristwin" title="Examples">💡</a></td>
     </tr>
   </tbody>
 </table>
