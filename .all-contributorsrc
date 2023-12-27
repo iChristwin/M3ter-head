@@ -8,6 +8,16 @@
   "commitConvention": "angular",
   "contributors": [
     {
+      "login": "IDEA-godwin",
+      "name": "Godwin Igwurube",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52127638?v=4",
+      "profile": "https://github.com/IDEA-godwin",
+      "contributions": [
+        "code",
+        "review"
+        ]
+    },
+    {
       "login": "iChristwin",
       "name": "I. Christwin",
       "avatar_url": "https://avatars.githubusercontent.com/u/52095470?v=4",
