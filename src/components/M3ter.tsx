@@ -1,16 +1,17 @@
 import React from "react";
+import seedrandom from "seedrandom";
+
 import Eyes from "./Eyes";
-import Texture from "./Texture";
 import Mouth from "./Mouth";
+import Texture from "./Texture";
 
-import * as seedrandom from 'seedrandom'
-
-function M3ter({ seed }) {
+function M3ter({ seed }: any) {
   const random = seedrandom(seed);
-  let color = "#" + random().toString(16).slice(2, 8);
-  let texture = Math.round(random() * 5);
   let eyes = Math.round(random() * 15);
   let mouth = Math.round(random() * 10);
+  let texture = Math.round(random() * 5);
+  let color = "#" + random().toString(16).slice(2, 8);
+
   return (
     <>
       <svg
@@ -32,10 +33,10 @@ function M3ter({ seed }) {
         </mask>
         <g mask="url(#facemask)">
           <rect x="-20" y="-20" width="225" height="220" fill={color} />
-          <Texture type={ texture } />
+          <Texture type={texture} />
         </g>
-        <Eyes type={ eyes } />
-        <Mouth type={ mouth } />
+        <Eyes type={eyes} />
+        <Mouth type={mouth} />
       </svg>
     </>
   );
