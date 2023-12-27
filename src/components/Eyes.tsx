@@ -17,7 +17,7 @@ import {
   RoundFrame2,
   Sensor,
   Shade,
-} from "../Parts/Eyes";
+} from "../parts/Eyes";
 
 interface EyesProps {
   type: number;

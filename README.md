@@ -1,6 +1,6 @@
 # M3ter-head: Unique Avatars for the M3tering Protocol
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-silver.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <p align="center"><img src='./M3ter-head.svg'/></p>
@@ -35,7 +35,6 @@ Inspired by the charming [Bottts](https://bottts.com/) designed by [Pablo Stanle
      render() {
        return (
          <div>
-           Your M3ter:
            <M3ter seed={"m3ter_id_string"} />
          </div>
        );
@@ -44,9 +43,9 @@ Inspired by the charming [Bottts](https://bottts.com/) designed by [Pablo Stanle
    ```
 
 
-**Licensing:**
+## Licensing
 
-The `m3ter-head` component is open-source and adheres to the creative commons license, fostering a collaborative and accessible development environment.
+You are free to embed under the terms of the [CC0 1.0 Universal](./LICENSE) License.
 
 
 ## Contributors ✨

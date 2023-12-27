@@ -9,7 +9,7 @@ function M3ter({ seed }: any) {
   const random = seedrandom(seed);
   let eyes = Math.round(random() * 15);
   let mouth = Math.round(random() * 10);
-  let texture = Math.round(random() * 5);
+  let texture = Math.round(random() * 4);
   let color = "#" + random().toString(16).slice(2, 8);
 
   return (

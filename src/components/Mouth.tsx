@@ -11,7 +11,7 @@ import {
   Smile2,
   Square1,
   Square2,
-} from "../Parts/Mouths";
+} from "../parts/Mouths";
 
 interface MouthProps {
   type: number;
