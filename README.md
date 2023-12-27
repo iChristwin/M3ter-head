@@ -6,7 +6,7 @@
 <p align="center"><img src='./M3ter-head.svg'/></p>
 M3ter-Head avatars to infuse a touch of whimsy and individuality into the M3tering Protocol.
 
-Inspired by the charming [Bottts](https://bottts.com/) designed by [Pablo Stanley](https://twitter.com/pablostanley) and adapted fromfrom [magnusson](https://github.com/magnusson/bottts-maker)'s [Bottts Maker 🤖](https://github.com/magnusson/bottts-maker).
+Inspired by the charming [Bottts](https://bottts.com/) designed by [Pablo Stanley](https://twitter.com/pablostanley) and adapted from Magnusson's [Bottts Maker 🤖](https://github.com/magnusson/bottts-maker).
 
 
 ## Usage:
