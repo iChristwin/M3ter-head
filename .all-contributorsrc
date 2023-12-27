@@ -1,0 +1,27 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "IDEA-godwin",
+      "name": "Godwin Igwurube",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52127638?v=4",
+      "profile": "https://github.com/IDEA-godwin",
+      "contributions": [
+        "code",
+        "review"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "M3ter-head",
+  "projectOwner": "iChristwin"
+}
