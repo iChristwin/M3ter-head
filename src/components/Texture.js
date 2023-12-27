@@ -1,9 +1,10 @@
 import React from 'react'
-import Camo1 from './Textures/Camo1'
-import Camo2 from './Textures/Camo2'
-import Dirty1 from './Textures/Dirty1'
-import Dirty2 from './Textures/Dirty2'
-import Dots from './Textures/Dots'
+import {Camo1,
+  Camo2,
+  Dirty1,
+  Dirty2,
+  Dots
+} from '../Parts/Textures'
 
 const Texture = props => {
   const types = {

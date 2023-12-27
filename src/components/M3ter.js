@@ -1,13 +1,26 @@
-import React, { Component } from "react";
-import Eyes from "./Parts/Eyes";
-import Texture from "./Parts/Texture";
-import Mouth from "./Parts/Mouth";
+import React from "react";
+import Eyes from "./Eyes";
+import Texture from "./Texture";
+import Mouth from "./Mouth";
 
-class M3ter extends Component {
-  render() {
-    const { color, texture, eyes, mouth } = this.props;
-    return (
-      <>
+import * as seedrandom from 'seedrandom'
+
+function M3ter({ seed }) {
+  const random = seedrandom(seed);
+  let color = "#" + random().toString(16).slice(2, 8);
+  let texture = Math.round(random() * 5);
+  let eyes = Math.round(random() * 15);
+  let mouth = Math.round(random() * 10);
+  return (
+    <>
+      <svg
+        version="1.1"
+        id="root"
+        xmlns="http://www.w3.org/2000/svg"
+        width="500"
+        height="500"
+        viewBox="-20 0 222 222"
+      >
         <mask id="facemask" mask-type="alpha" maskUnits="userSpaceOnUse">
           <g transform="matrix(0.12191378,0,0,0.12191378,-56.4,-500)">
             <path
@@ -19,12 +32,13 @@ class M3ter extends Component {
         </mask>
         <g mask="url(#facemask)">
           <rect x="-20" y="-20" width="225" height="220" fill={color} />
-          <Texture type={texture} />
+          <Texture type={ texture } />
         </g>
-        <Eyes type={eyes} />
-        <Mouth type={mouth} />
-      </>
-    );
-  }
+        <Eyes type={ eyes } />
+        <Mouth type={ mouth } />
+      </svg>
+    </>
+  );
 }
+
 export default M3ter;
