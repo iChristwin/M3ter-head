@@ -5,7 +5,7 @@ import Mouth from "./Mouth";
 
 import * as seedrandom from 'seedrandom'
 
-function M3ter({ seed }) {
+function M3ter({ seed }: any) {
   const random = seedrandom(seed);
   let color = "#" + random().toString(16).slice(2, 8);
   let texture = Math.round(random() * 5);
