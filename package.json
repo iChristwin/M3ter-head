@@ -1,6 +1,6 @@
 {
   "name": "m3ter-head",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "CC0",
   "author": "iChristwin",
   "description": "Unique svg avatars for the M3tering Protocol",
@@ -13,7 +13,7 @@
   "bugs": {
     "url": "https://github.com/iChristwin/M3ter-head/issues"
   },
-  "main": "index.ts",
+  "main": "dist/index.js",
   "files": [
     "dist"
   ],
