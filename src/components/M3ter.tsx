@@ -5,11 +5,15 @@ import Eyes from "./Eyes";
 import Mouth from "./Mouth";
 import Texture from "./Texture";
 
-function M3ter({ seed }: any) {
-  const random = seedrandom(seed);
+interface M3terProps {
+  type: string;
+}
+
+const M3ter: React.FC<M3terProps> = (props) => {
+  const random = seedrandom(props.type);
   let eyes = Math.round(random() * 15);
-  let mouth = Math.round(random() * 10);
-  let texture = Math.round(random() * 4);
+  let mouth = Math.round(random() * 11);
+  let texture = Math.round(random() * 5);
   let color = "#" + random().toString(16).slice(2, 8);
 
   return (

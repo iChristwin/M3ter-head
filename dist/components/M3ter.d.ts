@@ -1,3 +1,6 @@
 import React from "react";
-declare function M3ter({ seed }: any): React.JSX.Element;
+interface M3terProps {
+    type: string;
+}
+declare const M3ter: React.FC<M3terProps>;
 export default M3ter;

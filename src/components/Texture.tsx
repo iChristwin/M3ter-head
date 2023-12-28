@@ -6,7 +6,8 @@ interface TextureProps {
 }
 
 const Texture: React.FC<TextureProps> = (props) => {
-  const types: { [key: string]: React.FC } = {
+  const types: { [key: string]: React.FC | null } = {
+    None: null,
     Camo1,
     Camo2,
     Dirty1,
@@ -20,7 +21,7 @@ const Texture: React.FC<TextureProps> = (props) => {
 
   return (
     <g id="texture_part" transform="translate(-10, 25) scale(1.3)">
-      <Type />
+      {Type && <Type />}
     </g>
   );
 };

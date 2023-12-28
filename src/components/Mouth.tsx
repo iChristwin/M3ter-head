@@ -18,7 +18,8 @@ interface MouthProps {
 }
 
 const Mouth: React.FC<MouthProps> = (props) => {
-  const types: { [key: string]: React.FC } = {
+  const types: { [key: string]: React.FC | null } = {
+    None: null,
     Arturito,
     Bite,
     Diagram,
@@ -38,7 +39,7 @@ const Mouth: React.FC<MouthProps> = (props) => {
 
   return (
     <g id="mouth_part" transform="translate(52, 124)">
-      <Type />
+      {Type && <Type />}
     </g>
   );
 };
